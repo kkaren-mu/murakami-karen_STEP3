@@ -1,0 +1,133 @@
+body {
+    background-color: #faf8f5;
+    color: #333333;
+    font-family: "Yu Gothic", sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #2e5a44;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header p {
+    margin: 10px 0;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+}
+
+header nav a:hover {
+    color: #ffd700;
+}
+
+main {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+h2 {
+    border-bottom: 2px solid #2e5a44;
+    padding-bottom: 5px;
+    display: inline-block;
+}
+
+.cafe-img, .menu-card img {
+    border-radius: 8px;
+}
+
+.menu-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.menu-card {
+    background-color: white;
+    border: 1px solid #dddddd;
+    padding: 10px;
+    border-radius: 8px;
+    width: 180px;
+}
+
+.menu-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.input-item {
+    margin-bottom: 15px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #2e5a44;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #1e3c2d;
+}
+
+footer {
+    background-color: #1e3c2d;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
+
+footer p {
+    margin: 0;
+}

@@ -8,7 +8,6 @@
 </head>
 <body>
 
-    <!-- ヘッダー -->
     <header>
         <h1>TNG CAFE</h1>
         <p>心安らぐ一杯をあなたに</p>
@@ -21,9 +20,7 @@
         </nav>
     </header>
 
-    <!-- メイン -->
     <main>
-        <!-- a: about -->
         <section id="about">
             <h2>About Us</h2>
             <p>TNGCafeは自然の香りに包まれたリラックス空間を提供しています。</p>
@@ -31,7 +28,6 @@
             <img src="https://picsum.photos" alt="カフェの写真" class="cafe-img">
         </section>
 
-        <!-- a: menu -->
         <section id="menu">
             <h2>Menu</h2>
             <div class="menu-container">
@@ -50,28 +46,26 @@
             </div>
         </section>
 
-        <!-- a: contact -->
         <section id="contact">
             <h2>Contact</h2>
             <form>
                 <div class="input-item">
-                    <label>お名前：</label>
-                    <input type="text">
+                    <label for="user-name">お名前：</label>
+                    <input type="text" id="user-name">
                 </div>
                 <div class="input-item">
-                    <label>メールアドレス：</label>
-                    <input type="email">
+                    <label for="user-email">メールアドレス：</label>
+                    <input type="email" id="user-email">
                 </div>
                 <div class="input-item">
-                    <label>お問い合わせ内容：</label>
-                    <textarea rows="4"></textarea>
+                    <label for="user-msg">お問い合わせ内容：</label>
+                    <textarea id="user-msg" rows="4"></textarea>
                 </div>
                 <button type="submit" class="btn">送信</button>
             </form>
         </section>
     </main>
 
-    <!-- フッター -->
     <footer>
         <p>&copy; 2026 TNG Cafe</p>
     </footer>
